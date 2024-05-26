@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #f0f0f0; /* Cinza claro */
+    padding: 5px 10px; /* Espaçamento interno */
+    color: #666; /* Cor do texto */
+    font-size: 12px;
+}
+
+textarea {
+    width: 95%;
+    height: 150px;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4169E1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botao-redirecionar {
+    width: 30%;
+    background-color: #4169E1; /* Cor de fundo vermelha */
+    color: #ffffff; /* Cor do texto branca */
+    border: none; /* Remover borda */
+    padding: 10px 20px; /* Adicionar espaço interno */
+    border-radius: 5px; /* Adicionar cantos arredondados */
+    cursor: pointer; /* Alterar cursor para ponteiro ao passar por cima */
+}
+
+button:hover {
+    background-color: #483D8B;
+}
+
+#resultado {
+    margin-top: 20px;
+}

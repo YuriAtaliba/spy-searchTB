@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spy Detect</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Arquivo de estilos CSS -->
+</head>
+<body>
+    <div class="container">
+        <h1>SPY DETECT</h1>
+        <!-- Botão para redirecionar para outro site -->
+        <button class="botao-redirecionar" onclick="redirecionar()">Verificar as prints</button>
+        <textarea id="inputNames" placeholder="Insira os nomes, um por linha"></textarea>
+        <button onclick="contarNomes()">Search</button>
+        <div id="resultado"></div> <!-- Área para exibir o resultado -->
+    </div>
+
+    <script src="script.js"></script> <!-- Arquivo de script JavaScript -->
+
+    <script>
+        function redirecionar() {
+            // Abrir o site em uma nova aba
+            window.open("https://www.imagetotext.info/br/imagem-em-texto", "_blank");
+        }
+    </script>
+
+    <!-- Rodapé -->
+    <div class="footer">
+        Desenvolvido por: YuriAtaliba | Versão: 1.0.0
+    </div>
+</body>
+</html>
